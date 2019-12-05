@@ -11,7 +11,7 @@ sudo add-apt-repository \
    $(lsb_release -cs) \
    stable"
 sudo apt-get update
-sudo apt-get install -y docker-ce docker-ce-cli containerd.io
+sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-compose
 
 wget -qO - https://www.mongodb.org/static/pgp/server-4.2.asc | sudo apt-key add -
 sudo apt-get install gnupg
